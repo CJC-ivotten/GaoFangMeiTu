@@ -1,0 +1,693 @@
+[
+    {
+        "outputFile": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ru\\values-ru.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 14,
+                    "endOffset": 389
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 7,
+                        "endColumn": 14,
+                        "endOffset": 389
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 394,
+                    "endColumn": 114,
+                    "endOffset": 504
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 114,
+                        "endOffset": 165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 509,
+                    "endColumn": 107,
+                    "endOffset": 612
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 107,
+                        "endOffset": 273
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 617,
+                    "endColumn": 122,
+                    "endOffset": 735
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 278,
+                        "endColumn": 122,
+                        "endOffset": 396
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 740,
+                    "endColumn": 101,
+                    "endOffset": 837
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 401,
+                        "endColumn": 101,
+                        "endOffset": 498
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 842,
+                    "endColumn": 111,
+                    "endOffset": 949
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 503,
+                        "endColumn": 111,
+                        "endOffset": 610
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 954,
+                    "endColumn": 85,
+                    "endOffset": 1035
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 615,
+                        "endColumn": 85,
+                        "endOffset": 696
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1040,
+                    "endColumn": 104,
+                    "endOffset": 1140
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 701,
+                        "endColumn": 104,
+                        "endOffset": 801
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1145,
+                    "endColumn": 119,
+                    "endOffset": 1260
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 806,
+                        "endColumn": 119,
+                        "endOffset": 921
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1265,
+                    "endColumn": 78,
+                    "endOffset": 1339
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 926,
+                        "endColumn": 78,
+                        "endOffset": 1000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1344,
+                    "endColumn": 77,
+                    "endOffset": 1417
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1005,
+                        "endColumn": 77,
+                        "endOffset": 1078
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1422,
+                    "endColumn": 79,
+                    "endOffset": 1497
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1083,
+                        "endColumn": 79,
+                        "endOffset": 1158
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1502,
+                    "endColumn": 105,
+                    "endOffset": 1603
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1163,
+                        "endColumn": 105,
+                        "endOffset": 1264
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1608,
+                    "endColumn": 107,
+                    "endOffset": 1711
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1269,
+                        "endColumn": 107,
+                        "endOffset": 1372
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1716,
+                    "endColumn": 97,
+                    "endOffset": 1809
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1377,
+                        "endColumn": 97,
+                        "endOffset": 1470
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1814,
+                    "endColumn": 108,
+                    "endOffset": 1918
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1475,
+                        "endColumn": 108,
+                        "endOffset": 1579
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1923,
+                    "endColumn": 105,
+                    "endOffset": 2024
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1584,
+                        "endColumn": 105,
+                        "endOffset": 1685
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2029,
+                    "endColumn": 107,
+                    "endOffset": 2132
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1690,
+                        "endColumn": 107,
+                        "endOffset": 1793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2137,
+                    "endColumn": 135,
+                    "endOffset": 2268
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1798,
+                        "endColumn": 135,
+                        "endOffset": 1929
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2273,
+                    "endColumn": 99,
+                    "endOffset": 2368
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1934,
+                        "endColumn": 99,
+                        "endOffset": 2029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2373,
+                    "endColumn": 46,
+                    "endOffset": 2415
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 394,
+                        "endColumn": 46,
+                        "endOffset": 436
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2420,
+                    "endColumn": 56,
+                    "endOffset": 2472
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 441,
+                        "endColumn": 56,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 2477,
+                    "endColumn": 58,
+                    "endOffset": 2531
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 498,
+                        "endColumn": 58,
+                        "endOffset": 552
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2536,
+                    "endColumn": 45,
+                    "endOffset": 2577
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 557,
+                        "endColumn": 45,
+                        "endOffset": 598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2582,
+                    "endColumn": 40,
+                    "endOffset": 2618
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 603,
+                        "endColumn": 40,
+                        "endOffset": 639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2623,
+                    "endColumn": 55,
+                    "endOffset": 2674
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 644,
+                        "endColumn": 55,
+                        "endOffset": 695
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2679,
+                    "endColumn": 44,
+                    "endOffset": 2719
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 700,
+                        "endColumn": 44,
+                        "endOffset": 740
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2724,
+                    "endColumn": 70,
+                    "endOffset": 2790
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 745,
+                        "endColumn": 70,
+                        "endOffset": 811
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2795,
+                    "endColumn": 97,
+                    "endOffset": 2888
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 816,
+                        "endColumn": 97,
+                        "endOffset": 909
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2893,
+                    "endColumn": 94,
+                    "endOffset": 2983
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 914,
+                        "endColumn": 94,
+                        "endOffset": 1004
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2988,
+                    "endColumn": 71,
+                    "endOffset": 3055
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1009,
+                        "endColumn": 71,
+                        "endOffset": 1076
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3060,
+                    "endColumn": 99,
+                    "endOffset": 3155
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1081,
+                        "endColumn": 99,
+                        "endOffset": 1176
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 3160,
+                    "endColumn": 71,
+                    "endOffset": 3227
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1181,
+                        "endColumn": 71,
+                        "endOffset": 1248
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3232,
+                    "endColumn": 53,
+                    "endOffset": 3281
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\bundles\\debug\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1253,
+                        "endColumn": 53,
+                        "endOffset": 1302
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 3286,
+                    "endColumn": 80,
+                    "endOffset": 3362
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2034,
+                        "endColumn": 80,
+                        "endOffset": 2110
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 3367,
+                    "endColumn": 100,
+                    "endOffset": 3463
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\values-ru\\values-ru.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2115,
+                        "endColumn": 100,
+                        "endOffset": 2211
+                    }
+                }
+            }
+        ]
+    }
+]
