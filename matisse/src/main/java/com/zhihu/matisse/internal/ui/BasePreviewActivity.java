@@ -24,6 +24,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.zhihu.matisse.R;
 import com.zhihu.matisse.internal.entity.IncapableCause;
@@ -50,6 +51,7 @@ public abstract class BasePreviewActivity extends AppCompatActivity implements V
 
     protected CheckView mCheckView;
     protected TextView mButtonBack;
+    protected TextView mGoPsPhoto;
     protected TextView mButtonApply;
     protected TextView mSize;
 
@@ -76,9 +78,11 @@ public abstract class BasePreviewActivity extends AppCompatActivity implements V
         }
 
         mButtonBack = (TextView) findViewById(R.id.button_back);
+        mGoPsPhoto = (TextView) findViewById(R.id.id_go_ps);
         mButtonApply = (TextView) findViewById(R.id.button_apply);
         mSize = (TextView) findViewById(R.id.size);
         mButtonBack.setOnClickListener(this);
+        mGoPsPhoto.setOnClickListener(this);
         mButtonApply.setOnClickListener(this);
 
         mPager = (ViewPager) findViewById(R.id.pager);
@@ -135,6 +139,8 @@ public abstract class BasePreviewActivity extends AppCompatActivity implements V
         } else if (v.getId() == R.id.button_apply) {
             sendBackResult(true);
             finish();
+        } else if (v.getId() == R.id.id_go_ps){
+            Toast.makeText(this, "进入美化图片页面", Toast.LENGTH_SHORT).show();
         }
     }
 

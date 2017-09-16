@@ -25,8 +25,32 @@
         android:layout_height="match_parent"
         android:background="@android:color/black"/>
 
+
+    <FrameLayout
+        android:id="@+id/bottom_toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/go_ps_photo"
+        android:elevation="4dp"
+        tools:targetApi="lollipop">
+
+        <TextView
+            android:id="@+id/id_go_ps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:foreground="?selectableItemBackground"
+            android:text="@string/go_ps_photo"
+            android:padding="13dp"
+            android:gravity="center"
+            android:textColor="?attr/preview.bottomToolbar.back.textColor"
+            android:textSize="16sp"/>
+
+    </FrameLayout>
+
     <FrameLayout
         android:id="@+id/bottom_toolbar"
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -72,8 +96,10 @@
         android:layout_margin="8dp"
         android:fitsSystemWindows="true">
 
+
         <com.zhihu.matisse.internal.ui.widget.CheckView
             android:id="@+id/check_view"
+            android:visibility="gone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="10dp"/>

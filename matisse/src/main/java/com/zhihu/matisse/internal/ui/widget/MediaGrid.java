@@ -70,11 +70,13 @@ public class MediaGrid extends SquareFrameLayout implements View.OnClickListener
     public void onClick(View v) {
         if (mListener != null) {
             if (v == mThumbnail) {
-                mListener.onThumbnailClicked(mThumbnail, mMedia, mPreBindInfo.mViewHolder);
+                // 这里改成逻辑，改为进入美化图片界面
+               // mListener.onThumbnailClicked(mThumbnail, mMedia, mPreBindInfo.mViewHolder);
             } else if (v == mCheckView) {
                 mListener.onCheckViewClicked(mCheckView, mMedia, mPreBindInfo.mViewHolder);
             } else if (v == mExpandIv){
-                mListener.onCheckViewClicked(mCheckView, mMedia, mPreBindInfo.mViewHolder);
+                // 去掉原来的 CheckView 的逻辑，改为进入图片预览界面
+                mListener.onThumbnailClicked(mThumbnail, mMedia, mPreBindInfo.mViewHolder);
             }
         }
 

@@ -1,15 +1,15 @@
 [
     {
-        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\release\\layout\\activity_matisse.xml",
-        "source": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\layout\\activity_matisse.xml"
+        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\release\\layout\\media_grid_content.xml",
+        "source": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\layout\\media_grid_content.xml"
     },
     {
         "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
         "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\release\\layout\\media_grid_content.xml",
-        "source": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\layout\\media_grid_content.xml"
+        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\release\\layout\\activity_matisse.xml",
+        "source": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\layout\\activity_matisse.xml"
     },
     {
         "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\release\\layout\\activity_media_preview.xml",

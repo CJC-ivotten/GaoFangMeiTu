@@ -14,5 +14,6 @@
     <string name="error_over_quality">图片质量太高</string>
     <string name="error_type_conflict">不能同时选择图片和视频</string>
     <string name="error_under_quality">图片质量太低</string>
+    <string name="go_ps_photo">进入美化图片</string>
     <string name="photo_grid_capture">拍一张</string>
 </resources>

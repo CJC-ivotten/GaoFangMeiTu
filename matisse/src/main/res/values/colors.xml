@@ -18,5 +18,5 @@
 
     <color name="preview_bottom_toolbar_bg">#CC000000</color>
     <color name="preview_bottom_size">#61FFFFFF</color>
-
+    <color name="go_ps_photo">#bf3d8ff2</color>
 </resources>

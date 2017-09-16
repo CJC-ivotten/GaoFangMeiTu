@@ -72,6 +72,10 @@
         "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_expand.png",
+        "source": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\drawable-xxhdpi\\ic_expand.png"
+    },
+    {
         "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
         "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
