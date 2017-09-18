@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\debug\\color\\zhihu_bottom_toolbar_preview.xml",
-        "source": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\color\\zhihu_bottom_toolbar_preview.xml"
-    },
-    {
         "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
         "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\debug\\color\\zhihu_bottom_toolbar_preview.xml",
+        "source": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\color\\zhihu_bottom_toolbar_preview.xml"
     },
     {
         "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",

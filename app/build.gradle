@@ -32,6 +32,8 @@ dependencies {
     compile'com.android.support:recyclerview-v7:25.3.1'
     //图片选择
     compile project(':matisse')
+    //图片滤镜
+    compile project(':library')
     // BaseRecyclerViewAdapter
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.28'
     // 图片加载

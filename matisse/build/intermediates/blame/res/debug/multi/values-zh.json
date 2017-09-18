@@ -11,7 +11,14 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endColumn": 45,
+                        "endOffset": 674
+                    }
                 }
             },
             {
@@ -23,7 +30,14 @@
                     "endOffset": 146
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 778,
+                        "endColumn": 49,
+                        "endOffset": 823
+                    }
                 }
             },
             {
@@ -35,7 +49,14 @@
                     "endOffset": 198
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 726,
+                        "endColumn": 51,
+                        "endOffset": 773
+                    }
                 }
             },
             {
@@ -47,7 +68,14 @@
                     "endOffset": 241
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 828,
+                        "endColumn": 42,
+                        "endOffset": 866
+                    }
                 }
             },
             {
@@ -59,7 +87,14 @@
                     "endOffset": 284
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1017,
+                        "endColumn": 42,
+                        "endOffset": 1055
+                    }
                 }
             },
             {
@@ -71,7 +106,14 @@
                     "endOffset": 330
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 680,
+                        "endColumn": 45,
+                        "endOffset": 721
+                    }
                 }
             },
             {
@@ -83,7 +125,14 @@
                     "endOffset": 378
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 969,
+                        "endColumn": 47,
+                        "endOffset": 1012
+                    }
                 }
             },
             {
@@ -95,7 +144,14 @@
                     "endOffset": 431
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 4,
+                        "startOffset": 1296,
+                        "endColumn": 52,
+                        "endOffset": 1344
+                    }
                 }
             },
             {
@@ -107,7 +163,14 @@
                     "endOffset": 495
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1409,
+                        "endColumn": 63,
+                        "endOffset": 1468
+                    }
                 }
             },
             {
@@ -119,7 +182,14 @@
                     "endOffset": 556
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1126,
+                        "endColumn": 60,
+                        "endOffset": 1182
+                    }
                 }
             },
             {
@@ -131,7 +201,14 @@
                     "endOffset": 621
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1061,
+                        "endColumn": 64,
+                        "endOffset": 1121
+                    }
                 }
             },
             {
@@ -143,7 +220,14 @@
                     "endOffset": 675
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 4,
+                        "startOffset": 1242,
+                        "endColumn": 53,
+                        "endOffset": 1291
+                    }
                 }
             },
             {
@@ -155,7 +239,14 @@
                     "endOffset": 735
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 4,
+                        "startOffset": 1349,
+                        "endColumn": 59,
+                        "endOffset": 1404
+                    }
                 }
             },
             {
@@ -167,7 +258,14 @@
                     "endOffset": 790
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 1187,
+                        "endColumn": 54,
+                        "endOffset": 1237
+                    }
                 }
             },
             {
@@ -198,7 +296,14 @@
                     "endOffset": 888
                 },
                 "from": {
-                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml"
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\values-zh\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 918,
+                        "endColumn": 50,
+                        "endOffset": 964
+                    }
                 }
             }
         ]

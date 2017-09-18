@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
@@ -96,12 +96,12 @@
         "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
         "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_custom_big.xml",
         "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_mode_close_item_material.xml",

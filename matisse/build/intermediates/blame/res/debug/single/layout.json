@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\debug\\layout\\media_grid_item.xml",
         "source": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\src\\main\\res\\layout\\media_grid_item.xml"
+    },
+    {
+        "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\e069ad77a60955deaccaa3faf979225d37ff4d73\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\matisse\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",

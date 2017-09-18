@@ -51,6 +51,7 @@ public abstract class BasePreviewActivity extends AppCompatActivity implements V
 
     protected CheckView mCheckView;
     protected TextView mButtonBack;
+    // 进入图片美化页面
     protected TextView mGoPsPhoto;
     protected TextView mButtonApply;
     protected TextView mSize;
@@ -141,6 +142,8 @@ public abstract class BasePreviewActivity extends AppCompatActivity implements V
             finish();
         } else if (v.getId() == R.id.id_go_ps){
             Toast.makeText(this, "进入美化图片页面", Toast.LENGTH_SHORT).show();
+            Item item = mAdapter.getMediaItem(mPager.getCurrentItem());
+           // Intent intent = new Intent(this, PsPhotoActivity.class)
         }
     }
 
