@@ -17,6 +17,10 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".activity.PsPhotoActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.jason.gaofangmeitu.fileprovider"

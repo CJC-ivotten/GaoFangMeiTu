@@ -21,6 +21,7 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
@@ -141,9 +142,19 @@ public abstract class BasePreviewActivity extends AppCompatActivity implements V
             sendBackResult(true);
             finish();
         } else if (v.getId() == R.id.id_go_ps){
-            Toast.makeText(this, "进入美化图片页面", Toast.LENGTH_SHORT).show();
             Item item = mAdapter.getMediaItem(mPager.getCurrentItem());
-           // Intent intent = new Intent(this, PsPhotoActivity.class)
+            String activityName = "com.jason.gaofangmeitu.activity.PsPhotoActivity";
+            Class clazz = null;
+            try {
+                clazz = Class.forName(activityName);
+                Intent intent = new Intent(this,clazz);
+                intent.putExtra("item_uri", item);
+                startActivity(intent);
+            } catch (ClassNotFoundException e) {
+                Log.e("jason","启动 PsPhotoActivity 失败");
+                e.printStackTrace();
+            }
+
         }
     }
 

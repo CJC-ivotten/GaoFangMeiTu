@@ -12,6 +12,7 @@ import android.widget.Toast;
 import com.jason.gaofangmeitu.GPUImageTools.GPUImageFilterTools;
 import com.jason.gaofangmeitu.R;
 import com.jason.gaofangmeitu.utils.Constant;
+import com.zhihu.matisse.internal.entity.Item;
 
 import jp.co.cyberagent.android.gpuimage.GPUImageFilter;
 import jp.co.cyberagent.android.gpuimage.GPUImageView;
@@ -26,6 +27,7 @@ public class PsPhotoActivity extends AppCompatActivity implements SeekBar.OnSeek
     private GPUImageFilter mFilter;
     private GPUImageFilterTools.FilterAdjuster mFilterAdjuster;
     private GPUImageView mGPUImageView;
+    private Item item; // 图片信息
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -37,6 +39,10 @@ public class PsPhotoActivity extends AppCompatActivity implements SeekBar.OnSeek
         findViewById(R.id.button_save).setOnClickListener(this);
         mGPUImageView = (GPUImageView) findViewById(R.id.gpuimage);
 
+        item = getIntent().getParcelableExtra("item_uri");
+        if (item != null){
+            handleImage(item.uri);
+        }
     }
 
     @Override

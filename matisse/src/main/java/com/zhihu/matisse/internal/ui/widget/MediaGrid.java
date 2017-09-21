@@ -16,10 +16,12 @@
 package com.zhihu.matisse.internal.ui.widget;
 
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.text.format.DateUtils;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
@@ -42,6 +44,8 @@ public class MediaGrid extends SquareFrameLayout implements View.OnClickListener
     private PreBindInfo mPreBindInfo;
     private OnMediaGridClickListener mListener;
 
+    private Context mContext;
+
     public MediaGrid(Context context) {
         super(context);
         init(context);
@@ -53,6 +57,7 @@ public class MediaGrid extends SquareFrameLayout implements View.OnClickListener
     }
 
     private void init(Context context) {
+        mContext = context;
         LayoutInflater.from(context).inflate(R.layout.media_grid_content, this, true);
 
         mThumbnail = (ImageView) findViewById(R.id.media_thumbnail);
@@ -72,6 +77,18 @@ public class MediaGrid extends SquareFrameLayout implements View.OnClickListener
             if (v == mThumbnail) {
                 // 这里改成逻辑，改为进入美化图片界面
                // mListener.onThumbnailClicked(mThumbnail, mMedia, mPreBindInfo.mViewHolder);
+                Item item = mMedia;
+                String activityName = "com.jason.gaofangmeitu.activity.PsPhotoActivity";
+                Class clazz = null;
+                try {
+                    clazz = Class.forName(activityName);
+                    Intent intent = new Intent(mContext,clazz);
+                    intent.putExtra("item_uri", item);
+                    mContext.startActivity(intent);
+                } catch (ClassNotFoundException e) {
+                    Log.e("jason","启动 PsPhotoActivity 失败");
+                    e.printStackTrace();
+                }
             } else if (v == mCheckView) {
                 mListener.onCheckViewClicked(mCheckView, mMedia, mPreBindInfo.mViewHolder);
             } else if (v == mExpandIv){
