@@ -17,6 +17,7 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.jason.gaofangmeitu.adapter.HomeAdapter;
 import com.jason.gaofangmeitu.decoration.GridItemDecoration;
 import com.jason.gaofangmeitu.item.HomeItem;
+import com.jason.gaofangmeitu.learnOpengles.SGLViewActivity;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 import com.zhihu.matisse.Matisse;
 import com.zhihu.matisse.MimeType;
@@ -63,65 +64,14 @@ public class MainActivity extends AppCompatActivity {
         homeAdapter.setOnItemClickListener(new BaseQuickAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(BaseQuickAdapter adapter, View view, int position) {
-                Toast.makeText(MainActivity.this, "美拍", Toast.LENGTH_SHORT).show();
-                RxPermissions rxPermissions = new RxPermissions(MainActivity.this);
-                rxPermissions.request(Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                        .subscribe(new Observer<Boolean>() {
-                            @Override
-                            public void onSubscribe(Disposable d) {
-
-                            }
-
-                            @Override
-                            public void onNext(Boolean aBoolean) {
-                                if (aBoolean) {
-                                            Matisse.from(MainActivity.this)
-                                                    .choose(MimeType.ofAll(), false)
-                                                    .countable(false)
-                                                    // 是否在图片右上角显示选中的数目
-                                                    //.capture(true)
-                                                    .theme(R.style.Matisse_Dracula)
-                                                    //是否开启照相功能
-                                                   // .captureStrategy(
-                                                   //         new CaptureStrategy(true, "com.jason.gaofangmeitu.fileprovider"))
-                                                    .maxSelectable(9)
-                                                    //设置最大可选数量
-                                                    //.addFilter(new GifSizeFilter(320, 320, 5 * Filter.K * Filter.K))
-                                                    //添加过滤器,可自定义
-                                                    .gridExpectedSize(
-                                                            getResources().getDimensionPixelSize(R.dimen.grid_expected_size))
-                                                    //设置期待的尺寸
-                                                    .restrictOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
-                                                    //设置布局的水平或垂直属性
-                                                    .thumbnailScale(0.85f)
-                                                    //缩略图的缩放尺寸，默认为0.5
-                                                    .imageEngine(new GlideEngine())
-                                                    //设置图片加载库
-                                                    .forResult(REQUEST_CODE_CHOOSE);
-                                                     //启动选择图片的Activity
-
-
-                                } else {
-                                    Toast.makeText(MainActivity.this, R.string.permission_request_denied, Toast.LENGTH_LONG)
-                                            .show();
-                                }
-                            }
-
-                            @Override
-                            public void onError(Throwable e) {
-
-                            }
-
-                            @Override
-                            public void onComplete() {
-
-                            }
-                        });
+                selectItem(position);
             }
         });
 
         mRecyclerView.setAdapter(homeAdapter);
     }
+
+
 
     private void initData() {
         mDataList = new ArrayList<>();
@@ -142,4 +92,78 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, Matisse.obtainPathResult(data).toString(), Toast.LENGTH_SHORT).show();
         }
     }
+
+    /**
+     * 主界面，选则所需的图片出功能或者美颜相机
+     * @param position
+     */
+    private void selectItem(int position) {
+        switch (position){
+            // 图片处理界面，最终是通过使用 GPUImage 来做处理
+            case 0:
+                Toast.makeText(MainActivity.this, "美拍", Toast.LENGTH_SHORT).show();
+                RxPermissions rxPermissions = new RxPermissions(MainActivity.this);
+                rxPermissions.request(Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                        .subscribe(new Observer<Boolean>() {
+                            @Override
+                            public void onSubscribe(Disposable d) {
+
+                            }
+
+                            @Override
+                            public void onNext(Boolean aBoolean) {
+                                if (aBoolean) {
+                                    Matisse.from(MainActivity.this)
+                                            .choose(MimeType.ofAll(), false)
+                                            .countable(false)
+                                            // 是否在图片右上角显示选中的数目
+                                            //.capture(true)
+                                            .theme(R.style.Matisse_Dracula)
+                                            //是否开启照相功能
+                                            // .captureStrategy(
+                                            //         new CaptureStrategy(true, "com.jason.gaofangmeitu.fileprovider"))
+                                            .maxSelectable(9)
+                                            //设置最大可选数量
+                                            //.addFilter(new GifSizeFilter(320, 320, 5 * Filter.K * Filter.K))
+                                            //添加过滤器,可自定义
+                                            .gridExpectedSize(
+                                                    getResources().getDimensionPixelSize(R.dimen.grid_expected_size))
+                                            //设置期待的尺寸
+                                            .restrictOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT)
+                                            //设置布局的水平或垂直属性
+                                            .thumbnailScale(0.85f)
+                                            //缩略图的缩放尺寸，默认为0.5
+                                            .imageEngine(new GlideEngine())
+                                            //设置图片加载库
+                                            .forResult(REQUEST_CODE_CHOOSE);
+                                    //启动选择图片的Activity
+
+
+                                } else {
+                                    Toast.makeText(MainActivity.this, R.string.permission_request_denied, Toast.LENGTH_LONG)
+                                            .show();
+                                }
+                            }
+
+                            @Override
+                            public void onError(Throwable e) {
+
+                            }
+
+                            @Override
+                            public void onComplete() {
+
+                            }
+                        });
+                break;
+            // 学习opengl es 的demo
+            case 1:
+                startActivity(new Intent(MainActivity.this, SGLViewActivity.class));
+                break;
+            default:
+                break;
+        }
+
+    }
+
 }

@@ -39,6 +39,7 @@ public class PsPhotoActivity extends AppCompatActivity implements SeekBar.OnSeek
         findViewById(R.id.button_save).setOnClickListener(this);
         mGPUImageView = (GPUImageView) findViewById(R.id.gpuimage);
 
+        // 从图片选择库中拿到传过来的 image
         item = getIntent().getParcelableExtra("item_uri");
         if (item != null){
             handleImage(item.uri);

@@ -34,6 +34,8 @@ dependencies {
     compile project(':matisse')
     //图片滤镜
     compile project(':library')
+    //汤商人脸识别？
+    compile project(':stmobile')
     // BaseRecyclerViewAdapter
     compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.28'
     // 图片加载

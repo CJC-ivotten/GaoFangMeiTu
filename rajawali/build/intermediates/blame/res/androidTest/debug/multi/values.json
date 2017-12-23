@@ -1,0 +1,220 @@
+[
+    {
+        "outputFile": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\rajawali\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 5,
+                    "endColumn": 11,
+                    "endOffset": 198
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\rajawali\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 5,
+                        "endColumn": 11,
+                        "endOffset": 198
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 203,
+                    "endColumn": 45,
+                    "endOffset": 244
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\rajawali\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 45,
+                        "endOffset": 244
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 249,
+                    "endColumn": 44,
+                    "endOffset": 289
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\rajawali\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 249,
+                        "endColumn": 44,
+                        "endOffset": 289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 294,
+                    "endColumn": 45,
+                    "endOffset": 335
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\rajawali\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 294,
+                        "endColumn": 45,
+                        "endOffset": 335
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 340,
+                    "endColumn": 45,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\rajawali\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 340,
+                        "endColumn": 45,
+                        "endOffset": 381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endColumn": 43,
+                    "endOffset": 425
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\rajawali\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endColumn": 43,
+                        "endOffset": 425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 430,
+                    "endColumn": 43,
+                    "endOffset": 469
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\rajawali\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 430,
+                        "endColumn": 43,
+                        "endOffset": 469
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 474,
+                    "endColumn": 49,
+                    "endOffset": 519
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\rajawali\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 474,
+                        "endColumn": 49,
+                        "endOffset": 519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 524,
+                    "endColumn": 52,
+                    "endOffset": 572
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\rajawali\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 524,
+                        "endColumn": 52,
+                        "endOffset": 572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 577,
+                    "endLine": 17,
+                    "endColumn": 11,
+                    "endOffset": 729
+                },
+                "from": {
+                    "file": "D:\\important_soft\\android_studio_workspace\\GaoFangMeiTu\\rajawali\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 577,
+                        "endLine": 17,
+                        "endColumn": 11,
+                        "endOffset": 729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1344,
+                    "endColumn": 45,
+                    "endOffset": 1385
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator.ZX-201607081904\\.android\\build-cache\\171355650af0962718caeaf27c97848b1c39d160\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    }
+]

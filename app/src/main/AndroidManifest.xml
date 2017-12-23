@@ -21,6 +21,13 @@
             android:screenOrientation="portrait">
         </activity>
 
+        <activity android:name=".learnOpengles.SGLViewActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".omshiroi.SplashActivity">
+        </activity>
+
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.jason.gaofangmeitu.fileprovider"
@@ -36,5 +43,11 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+
+    <!-- 使用 openGL ES 2.x版本 -->
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+
 
 </manifest>
