@@ -1,4 +1,4 @@
-package com.jason.gaofangmeitu.omshiroi;
+package com.jason.gaofangmeitu.omshiroi.ui;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -16,7 +16,6 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.jason.gaofangmeitu.R;
-import com.jason.gaofangmeitu.omshiroi.flyu.DemoConstants;
 
 /**
  * Created by 陈家程 on 2017/12/22.
