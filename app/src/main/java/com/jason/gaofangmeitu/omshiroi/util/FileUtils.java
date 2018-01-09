@@ -129,6 +129,12 @@ public class FileUtils {
         return filename;
     }
 
+    public static String getPicNamePNG(){
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss");
+        String filename="/Pic_" + simpleDateFormat.format(new Date())+".png";
+        return filename;
+    }
+
     public static String getVidName(){
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss");
         String filename="/Vid_" + simpleDateFormat.format(new Date())+".mp4";

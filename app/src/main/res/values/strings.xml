@@ -7,6 +7,6 @@
     <string name="material_center">素材中心</string>
     <string name="ad">广告</string>
     <string name="permission_request_denied">需要相应的权限</string>
-
+    <string name="savePhotoToLocal">保存</string>
 
 </resources>

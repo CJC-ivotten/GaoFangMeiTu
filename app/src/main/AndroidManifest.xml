@@ -28,6 +28,9 @@
         <activity android:name=".omshiroi.ui.SplashActivity">
         </activity>
 
+        <activity android:name=".omshiroi.ui.EditActivity">
+        </activity>
+
         <provider
             android:name="android.support.v4.content.FileProvider"
             android:authorities="com.jason.gaofangmeitu.fileprovider"

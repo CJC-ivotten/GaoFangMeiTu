@@ -16,6 +16,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.jason.gaofangmeitu.R;
+import com.jason.gaofangmeitu.omshiroi.flyu.DemoConstants;
 
 /**
  * Created by 陈家程 on 2017/12/22.
@@ -87,9 +88,9 @@ public class SplashActivity extends AppCompatActivity {
                 }
                 cursor.close();
                 Log.d(TAG, "onActivityResult: "+pirPath);
-//                Intent intent=new Intent(SplashActivity.this,EditActivity.class);
-//                intent.putExtra(DemoConstants.IMAGE_PATH,pirPath);
-//                startActivity(intent);
+                Intent intent=new Intent(SplashActivity.this,EditActivity.class);
+                intent.putExtra(DemoConstants.IMAGE_PATH,pirPath);
+                startActivity(intent);
             }
         }
     }

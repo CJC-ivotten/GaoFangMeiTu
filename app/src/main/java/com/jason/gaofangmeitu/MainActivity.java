@@ -18,6 +18,7 @@ import com.jason.gaofangmeitu.adapter.HomeAdapter;
 import com.jason.gaofangmeitu.decoration.GridItemDecoration;
 import com.jason.gaofangmeitu.item.HomeItem;
 import com.jason.gaofangmeitu.learnOpengles.SGLViewActivity;
+import com.jason.gaofangmeitu.omshiroi.ui.SplashActivity;
 import com.tbruyelle.rxpermissions2.RxPermissions;
 import com.zhihu.matisse.Matisse;
 import com.zhihu.matisse.MimeType;
@@ -159,6 +160,10 @@ public class MainActivity extends AppCompatActivity {
             // 学习opengl es 的demo
             case 1:
                 startActivity(new Intent(MainActivity.this, SGLViewActivity.class));
+                break;
+            // 学习 omoshiroilib 库，暂时是关于使用 OpenGL es 来给静态图片加滤镜
+            case 2:
+                startActivity(new Intent(MainActivity.this, SplashActivity.class));
                 break;
             default:
                 break;

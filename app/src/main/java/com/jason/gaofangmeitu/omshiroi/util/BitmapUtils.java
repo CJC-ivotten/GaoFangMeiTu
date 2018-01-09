@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.opengl.GLES20;
 import android.os.AsyncTask;
+import android.os.Environment;
 import android.os.Handler;
 import android.util.Log;
 
@@ -14,12 +15,15 @@ import com.jason.gaofangmeitu.omshiroi.debug.GlobalConfig;
 import com.jason.gaofangmeitu.omshiroi.debug.PixelBuffer;
 import com.jason.gaofangmeitu.omshiroi.filter.helper.FilterType;
 import com.jason.gaofangmeitu.omshiroi.glessential.GLImageRender;
+import com.jason.gaofangmeitu.utils.Constant;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.Buffer;
+import java.nio.ByteBuffer;
 import java.nio.IntBuffer;
 
 
@@ -42,6 +46,47 @@ public class BitmapUtils {
         }
         Bitmap bmp = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
         return bmp;
+    }
+
+    public static void sendImage(int width, int height) {
+        ByteBuffer rgbaBuf = ByteBuffer.allocateDirect(width * height * 4);
+        rgbaBuf.position(0);
+        long start = System.nanoTime();
+        GLES20.glReadPixels(0, 0, width, height, GLES20.GL_RGBA, GLES20.GL_UNSIGNED_BYTE,
+                rgbaBuf);
+        long end = System.nanoTime();
+        Log.d("TryOpenGL", "glReadPixels: " + (end - start));
+        String filename = null;
+        File path = Environment
+                .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+        File picFolder = new File(path, Constant.SAVE_PIR_FOLDER);
+
+        if (!picFolder.exists())
+            picFolder.mkdirs();
+        filename= picFolder.getAbsolutePath()+FileUtils.getPicNamePNG();
+        saveRgb2Bitmap(rgbaBuf, filename, width, height);
+    }
+
+    public static void saveRgb2Bitmap(Buffer buf, String filename, int width, int height) {
+        Log.d("TryOpenGL", "Creating " + filename);
+        BufferedOutputStream bos = null;
+        try {
+            bos = new BufferedOutputStream(new FileOutputStream(filename));
+            Bitmap bmp = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
+            bmp.copyPixelsFromBuffer(buf);
+            bmp.compress(Bitmap.CompressFormat.PNG, 90, bos);
+            bmp.recycle();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (bos != null) {
+                try {
+                    bos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 
     public static void sendImage(int width, int height, Context context, FileUtils.FileSavedCallback fileSavedCallback) {
@@ -76,10 +121,17 @@ public class BitmapUtils {
             this.width = width;
             this.height = height;
             this.context = context;
-            File picFolder= GlobalConfig.context.getCacheDir();
+
+            File path = Environment
+                    .getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES);
+            File picFolder = new File(path, Constant.SAVE_PIR_FOLDER);
+
             if (!picFolder.exists())
                 picFolder.mkdirs();
             filePath= picFolder.getAbsolutePath()+FileUtils.getPicName();
+
+
+
             this.fileSavedCallback=fileSavedCallback;
         }
 
